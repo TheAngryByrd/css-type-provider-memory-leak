@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{958DBD97-0C30-4D18-B27E-3FC54C8A9A73}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "app1", "src\app1\app1.fsproj", "{818C962E-93B5-4CFB-AC2B-EE70446A5CD3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "library1", "src\library1\library1.fsproj", "{48135F0C-9002-46C5-89AC-54A19A491E72}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "library2", "src\library2\library2.fsproj", "{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818C962E-93B5-4CFB-AC2B-EE70446A5CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818C962E-93B5-4CFB-AC2B-EE70446A5CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818C962E-93B5-4CFB-AC2B-EE70446A5CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818C962E-93B5-4CFB-AC2B-EE70446A5CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48135F0C-9002-46C5-89AC-54A19A491E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48135F0C-9002-46C5-89AC-54A19A491E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48135F0C-9002-46C5-89AC-54A19A491E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48135F0C-9002-46C5-89AC-54A19A491E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{818C962E-93B5-4CFB-AC2B-EE70446A5CD3} = {958DBD97-0C30-4D18-B27E-3FC54C8A9A73}
+		{48135F0C-9002-46C5-89AC-54A19A491E72} = {958DBD97-0C30-4D18-B27E-3FC54C8A9A73}
+		{B44E3FDC-3CC1-476C-BD8E-F192D0DF977F} = {958DBD97-0C30-4D18-B27E-3FC54C8A9A73}
+	EndGlobalSection
+EndGlobal
